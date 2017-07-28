@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537378121F282CE200780B5A /* BLEManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537378111F282CE200780B5A /* BLEManage.swift */; };
 		9B49F2CB1F1A396200C4700E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F2CA1F1A396200C4700E /* AppDelegate.swift */; };
 		9B49F2CD1F1A396200C4700E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F2CC1F1A396200C4700E /* ViewController.swift */; };
 		9B49F2D01F1A396200C4700E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B49F2CE1F1A396200C4700E /* Main.storyboard */; };
 		9B49F2D21F1A396200C4700E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B49F2D11F1A396200C4700E /* Assets.xcassets */; };
 		9B49F2D51F1A396200C4700E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B49F2D31F1A396200C4700E /* LaunchScreen.storyboard */; };
+		9B6EC31F1F1BAB060059F27A /* ChoiceDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EC31E1F1BAB060059F27A /* ChoiceDeviceVC.swift */; };
+		9B6EC3211F1BB10E0059F27A /* InsertDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EC3201F1BB10E0059F27A /* InsertDataVC.swift */; };
+		9B6EC3231F1BB4480059F27A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EC3221F1BB4480059F27A /* ResultVC.swift */; };
+		CEB61DB31F1F39C000D72B53 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB61DB21F1F39C000D72B53 /* CreateAccountVC.swift */; };
+		CEB61DB51F1F59E700D72B53 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB61DB41F1F59E700D72B53 /* ForgotPasswordVC.swift */; };
+		CEC4E57B1F25F54600645D9A /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4E57A1F25F54600645D9A /* AccountInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		537378111F282CE200780B5A /* BLEManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManage.swift; sourceTree = "<group>"; };
 		9B49F2C71F1A396200C4700E /* WeightV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B49F2CA1F1A396200C4700E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B49F2CC1F1A396200C4700E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		9B49F2D11F1A396200C4700E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B49F2D41F1A396200C4700E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B49F2D61F1A396300C4700E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6EC31E1F1BAB060059F27A /* ChoiceDeviceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceDeviceVC.swift; sourceTree = "<group>"; };
+		9B6EC3201F1BB10E0059F27A /* InsertDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertDataVC.swift; sourceTree = "<group>"; };
+		9B6EC3221F1BB4480059F27A /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		CEB61DB21F1F39C000D72B53 /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		CEB61DB41F1F59E700D72B53 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CEC4E57A1F25F54600645D9A /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				9B49F2D11F1A396200C4700E /* Assets.xcassets */,
 				9B49F2D31F1A396200C4700E /* LaunchScreen.storyboard */,
 				9B49F2D61F1A396300C4700E /* Info.plist */,
+				9B6EC31E1F1BAB060059F27A /* ChoiceDeviceVC.swift */,
+				9B6EC3201F1BB10E0059F27A /* InsertDataVC.swift */,
+				9B6EC3221F1BB4480059F27A /* ResultVC.swift */,
+				CEB61DB21F1F39C000D72B53 /* CreateAccountVC.swift */,
+				CEB61DB41F1F59E700D72B53 /* ForgotPasswordVC.swift */,
+				CEC4E57A1F25F54600645D9A /* AccountInfo.swift */,
+				537378111F282CE200780B5A /* BLEManage.swift */,
 			);
 			path = WeightV1;
 			sourceTree = "<group>";
@@ -96,6 +117,7 @@
 				TargetAttributes = {
 					9B49F2C61F1A396200C4700E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DHH8LP474C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B6EC3231F1BB4480059F27A /* ResultVC.swift in Sources */,
+				CEB61DB51F1F59E700D72B53 /* ForgotPasswordVC.swift in Sources */,
 				9B49F2CD1F1A396200C4700E /* ViewController.swift in Sources */,
+				CEB61DB31F1F39C000D72B53 /* CreateAccountVC.swift in Sources */,
+				9B6EC3211F1BB10E0059F27A /* InsertDataVC.swift in Sources */,
+				CEC4E57B1F25F54600645D9A /* AccountInfo.swift in Sources */,
+				537378121F282CE200780B5A /* BLEManage.swift in Sources */,
 				9B49F2CB1F1A396200C4700E /* AppDelegate.swift in Sources */,
+				9B6EC31F1F1BAB060059F27A /* ChoiceDeviceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DHH8LP474C;
 				INFOPLIST_FILE = WeightV1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iii.www.WeightV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DHH8LP474C;
 				INFOPLIST_FILE = WeightV1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iii.www.WeightV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +334,7 @@
 				9B49F2DB1F1A396300C4700E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
